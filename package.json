@@ -1,0 +1,8 @@
+{
+  "name": "infolycee",
+  "version": "1.0.0",
+  "description": "Plateforme InfoLycée — Informatique Tronc Commun",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "@netlify/blobs": "^8.1.0" }
+}

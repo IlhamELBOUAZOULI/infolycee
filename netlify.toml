@@ -1,0 +1,14 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+# Page élève : https://votre-site/eleve
+[[redirects]]
+  from = "/eleve"
+  to = "/eleve.html"
+  status = 200
+
+[[redirects]]
+  from = "/prof"
+  to = "/index.html"
+  status = 200
